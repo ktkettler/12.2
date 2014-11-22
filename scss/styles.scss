@@ -17,12 +17,20 @@ $bodyType: Georgia, serif;
 }
 
 img {
-	width: 90%;
-	padding: 10px;
+	width: 100%;
 	@include border-radius (30px);
-	margin: auto;
-	display: block;
 }
 header {
 	width: 65%;
+}
+section {
+	header {
+		width: 100%;
+	}
+}
+nav {
+	a {
+	text-decoration: none;
+	color: $dark;
+	}
 }
