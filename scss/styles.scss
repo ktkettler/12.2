@@ -3,6 +3,8 @@ $red: #E74C3C;
 $white: #ECF0F1;  
 $mid: #3498DB;  
 $light: #2980B9;
+$headerType: Helvetica, sans-serif;
+$bodyType: Georgia, serif;
 
 @import 'layout';
 @import 'type';
@@ -18,4 +20,9 @@ img {
 	width: 90%;
 	padding: 10px;
 	@include border-radius (30px);
+	margin: auto;
+	display: block;
+}
+header {
+	width: 65%;
 }

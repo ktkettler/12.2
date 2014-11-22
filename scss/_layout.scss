@@ -47,10 +47,24 @@ table {
 	border-spacing: 0;
 }
 /*End Reset*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 html {
 	background-color: $dark;
 }
 body {
 	width: 640px;
 	margin: 10px auto;
+}
+article {
+	background-color: $light;
+	color: $white;
+	@include border-radius (15px);
+	margin: 30 0;
+	padding: 40 20;
 }

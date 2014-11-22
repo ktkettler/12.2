@@ -53,12 +53,34 @@ body {
   width: 640px;
   margin: 10px auto; }
 
+article {
+  background-color: #2980B9;
+  color: #ECF0F1;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  margin: 30 0;
+  padding: 40 20; }
+
+h1 {
+  color: #ECF0F1;
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 700; }
+
 img {
   width: 90%;
   padding: 10px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
-  border-radius: 30px; }
+  border-radius: 30px;
+  margin: auto;
+  display: block; }
+
+header {
+  width: 65%; }
 
 /*# sourceMappingURL=styles.css.map */
