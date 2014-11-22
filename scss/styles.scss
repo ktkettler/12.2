@@ -4,6 +4,18 @@ $white: #ECF0F1;
 $mid: #3498DB;  
 $light: #2980B9;
 
-body {
-	width: 640px;
+@import 'layout';
+@import 'type';
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+img {
+	width: 90%;
+	padding: 10px;
+	@include border-radius (30px);
 }
