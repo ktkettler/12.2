@@ -102,7 +102,23 @@ section h1 {
   -ms-border-radius: 10px;
   border-radius: 10px;
   margin: 50 0 20;
-  padding: 12 5; }
+  padding: 10 5; }
+
+article h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-weight: 700; }
+article h3 {
+  font-size: 1.2em;
+  padding: 10 0; }
+article p {
+  line-height: 1.1em;
+  padding: 5 0; }
+article ul {
+  list-style: disc;
+  padding: 5 0 5 40; }
+  article ul li {
+    padding: 5 0; }
 
 img {
   width: 100%;

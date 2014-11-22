@@ -12,21 +12,21 @@ h2 {
 	padding: 10 0;
 }
 header{
-nav{
-	margin: 20 0;
-	li{
-		display: inline;
-		background-color: $light;
-		text-decoration: none;
-		font-family: $headerType;
-		font-size: 1.2em;
-		font-weight: 700;
-		padding: 5 8;
-		margin: 0 20 0 0;
-		color: $dark;
-		@include border-radius (5px);
+	nav{
+		margin: 20 0;
+		li{
+			display: inline;
+			background-color: $light;
+			text-decoration: none;
+			font-family: $headerType;
+			font-size: 1.2em;
+			font-weight: 700;
+			padding: 5 8;
+			margin: 0 20 0 0;
+			color: $dark;
+			@include border-radius (5px);
+		}
 	}
-}
 }
 section {
 	h1 {
@@ -35,6 +35,28 @@ section {
 		background-color: $white;
 		@include border-radius (10px);
 		margin: 50 0 20;
-		padding: 12 5;
+		padding: 10 5;
+	}
+}
+article {
+	h2 {
+		font-family: $headerType;
+		font-size: 1.6em;
+		font-weight: 700;
+	}
+	h3 {
+		font-size: 1.2em;
+		padding: 10 0;
+	}
+	p {
+		line-height: 1.1em;	
+		padding: 5 0;
+	}
+	ul {
+		list-style: disc;
+		padding: 5 0 5 40;
+		li{
+			padding: 5 0;
+		}
 	}
 }
