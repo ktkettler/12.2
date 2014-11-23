@@ -28,9 +28,20 @@ section {
 		width: 100%;
 	}
 }
-nav {
+header {
+	nav {
+		a {
+		text-decoration: none;
+		color: $dark;
+		}
+	}
+}
+footer {
 	a {
-	text-decoration: none;
-	color: $dark;
+		color: $white;
+		font-size: .8em;
+		text-decoration: none;
+		padding: 0 15px;
+		text-transform: lowercase;
 	}
 }

@@ -60,3 +60,27 @@ article {
 		}
 	}
 }
+footer {
+	h1{
+		font-size: .8em;
+		text-transform: lowercase;
+		display: inline;
+	}
+	h2 {
+		font-family: $headerType;
+		font-size: .8em;
+		font-weight: 300;
+		text-transform: lowercase;
+		display: inline;
+	}
+	nav {
+		display: inline;
+		color: $white;
+		ul{
+			display: inline;
+			li {
+				display: inline;
+			}
+		}
+	}
+}
